@@ -1,0 +1,107 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .content h1 {
+    margin-bottom: 40px;
+    max-width: 300px; 
+  }
+  
+  .content p {
+    color: #21243D;
+    margin-bottom: 40px;
+    max-width: 750px; 
+    line-height: 1.5; 
+  }
+  
+  .button {
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ff4b4b;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    text-align: right;
+    padding-left: 20px;
+  }
+
+  @media (max-width: 768px) {
+    /* CSS for IntroductionPage component */
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .content h1 {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  
+  .content p {
+    color: #21243D;
+    margin-bottom: 20px;
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  
+  .button {
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ff4b4b;
+  }
+  
+  .imageContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .imageContainer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+}
+
+  

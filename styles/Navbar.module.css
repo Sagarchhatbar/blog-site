@@ -1,0 +1,75 @@
+.navbarMain {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin-right: 40px;
+  }
+
+  .hamburger {
+    display: none;
+    color: black;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: flex;
+  }
+  
+  .menu.open {
+    display: block;
+  }
+  
+  .navbarMain div {
+    margin-left: 20px;
+  }
+  
+  .navbarMain a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500
+  }
+
+  .activeLink {
+    color: #FF6464;
+  }
+  
+  .navbarMain a:hover {
+    text-decoration: underline;
+  }
+
+  /* Mobile view */
+@media (max-width: 768px) {
+    .navbarMain{
+        margin-right: 10px;
+    }
+    .hamburger {
+      display: block; /* Show the hamburger menu */
+    }
+  
+    .menu {
+      display: none; /* Hide the regular menu items */
+      position: absolute; /* Position the menu absolutely */
+      top: 50px; /* Adjust based on your design */
+      right: 10px;
+      background: white; /* Background color for the mobile menu */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .menu.open {
+      display: flex; /* Display the menu when open */
+    }
+  
+    .navbarMain div {
+      margin-left: 0;
+      margin-bottom: 10px; /* Add spacing between menu items */
+    }
+  }

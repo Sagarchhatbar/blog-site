@@ -1,0 +1,27 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+.socialMedia {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.socialMedia li {
+    display: inline;
+    margin: 0 20px;
+}
+.socialMedia li a {
+    text-decoration: none;
+    color: #21243D;
+    font-size: 30px;
+}
+.socialMedia li a:hover {
+    color: #0073e6;
+}
+.copyright {
+    margin-top: 10px;
+    color: #333;
+}
